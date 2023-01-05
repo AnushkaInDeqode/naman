@@ -41,11 +41,46 @@ In this project we have used following dependencies :-
 
 ## Directory Structure
 
-
+```
+.
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── org
+│   │   │       └── payroll
+│   │   │           ├── controller
+│   │   │           ├── entity
+│   │   │           ├── service
+│   │   │           └── utility
+│   │   └── resources
+│   └── test
+│       └── java
+└── target
+    ├── classes
+    │   └── org
+    │       └── payroll
+    │           ├── controller
+    │           ├── entity
+    │           ├── service
+    │           └── utility
+    └── generated-sources
+        └── annotations
+```
 ---
 
-## <details><summary>Field of records</summary>
+## Steps to run the program
 
+1. Import the zip file into your respective IDE.
+
+2.  Check the Java version (11 or above).
+
+3.  Go to Run configurations --> click on arguements and mention the input file name (txt/csv) --> Click on apply
+
+4.  Click RUN.
+
+----
+
+## <details><summary>Field of records</summary>
 
 | Field of Record        | Description|  
 | ------------- |:-------------:| 
